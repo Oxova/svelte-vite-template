@@ -11,5 +11,13 @@ export default defineConfig({
     optimizeDeps: {
         exclude: ['@roxi/routify'],
     },
+    resolve: {
+        alias: [
+            {
+                find: '@',
+                replacement: path.resolve(__dirname, './src'),
+            },
+        ],
+    },
     plugins: [svelte()],
 });
