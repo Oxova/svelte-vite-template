@@ -1,3 +1,5 @@
+**We recommend you get started using `npm init vite@latest`**
+
 # Svelte & Vite Template
 
 # Features
